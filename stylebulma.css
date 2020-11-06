@@ -1,0 +1,12 @@
+#footer,#header{
+    margin-top: 1.5rem;
+}
+#header,#blocos,.article_picture{
+    text-align: center;
+}
+#footer-nav-social{
+    text-align: right;
+}
+#footer{
+    margin-bottom: 1.5rem;
+}
