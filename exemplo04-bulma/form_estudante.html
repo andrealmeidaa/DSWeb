@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	 <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <title>Formulário</title>
+  </head>
+  <body>
+	  <header class="container notification is-link mt-2">
+		  <h1 class="title">Formulário - Atualizar Estudante</h1>
+	  </header>
+	 <section class="container">
+		  <form action="#" method="post">
+		 <fieldset class="box">
+			 <legend class="label has-text-centered">Alteração de Dados</legend>
+			 <div class="field">
+			 	<label class="label">Nome:</label>
+				 <div class="control ">
+					 <input type="text" class="input is-rounded" name="nome" value="João Maria"/>
+				 </div>
+		     </div>
+			 <div class="field">
+			 	<label class="label">Disciplina:</label>
+				 <div class="control is-expanded">
+					 <div class="select is-fullwidth is-rounded">
+						<select name="disciplina">
+							<option selected="selected">Design Web</option>
+							<option>Ambientação EaD</option>
+							<option>Banco de Dados</option>
+						</select>
+					 </div>
+				 </div>
+		     </div>
+			 <div class="field">
+			 	<label class="label">Nota:</label>
+				 <div class="control">
+					 <input type="text" class="input is-rounded" name="nota" value="8.5"/>
+				 </div>
+		     </div>
+			 <div class="field is-grouped">
+    			<div class="control">
+					<button class="button is-primary is-rounded">Atualizar</button>
+				</div>
+    			<div class="control">
+					<button class="button is-light is-rounded" type="reset">Limpar</button>
+				</div>
+  			</div>
+		 </fieldset>
+	 </form>
+	 </section>
+	 <footer class="container mt-2">
+		 <p><a href="index.html"><i class="fas fa-chevron-circle-left fa-2x"></i></a></p>
+	 </footer>
+	 
+  </body>
+</html>

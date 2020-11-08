@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    font-size: 100%;
+    font:inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin-left: 0.5rem;
+}
+a:hover{
+    background-color: teal;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    color:red;
+}
+#header{
+    width: 90%;
+    background-color: blue;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.0rem;
+    border-style: solid;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+}
+.caixa_principal>img{
+    max-width: 95%;
+    margin-left:0.5rem;
+    margin-top: 0.5rem;
+   
+}
+
+.caixa>img{
+    max-width: 100%;
+}
+
+.caixa_principal>p, .caixa_principal>button{
+    margin-left:0.5rem;
+}
+.caixa_principal{
+    width: 50%;
+    border-style: solid;
+    background-color: tomato;
+    align-self: stretch;
+}
+
+.caixa{
+    width: 33.33%;
+    border-style: solid;
+    background-color: teal;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+#desc_carro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+#caixa02,#caixa03{
+    margin-left: 0.5rem;
+}
+#main>section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.0rem;
+}
+#nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    display: flex;
+    background-color: orange;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 1.0rem;
+    padding-top: 1.0rem;
+    border-style: solid;
+}
+#footer>nav{
+    margin-left: 0.5rem;
+}
+button{
+	background-color: white;
+	color:black;
+	border: 2px solid #4CAF50;
+	text-align: center;
+	padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+	text-decoration: none;
+	font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media  (max-width: 600px){
+    #main{
+        flex-wrap: wrap;
+    }
+    #main>section{
+        flex-wrap: wrap;
+    }
+}
+
